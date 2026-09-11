@@ -5,7 +5,7 @@ void	*memset(void *s, int value, size_t n)
 	size_t			i; //simple compteur en size_t car comparaison avec n.
 	unsigned char	*ptr; // sert a caster le void en unsigned char *
 
-	ptr = (unsigned char *)s; // la variable ptr contient le premiere octet de l element pointe par s.
+	ptr = (unsigned char *)s; // la variable ptr contient l'adresse du premiere octet de l element pointe par s.
 	i = 0;
 	while (i < n) // a chaque incrementation de 1 on passe a l octet suivant donc while i < taille d octet a change
 	{
