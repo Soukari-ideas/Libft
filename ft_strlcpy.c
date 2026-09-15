@@ -41,3 +41,4 @@ int	main(void)
 	printf("la chaine original fait %ld octets et la fonction a copier %ld octets\n", len, size);
 	return (0);
 }
+*/
