@@ -43,10 +43,10 @@ char    *ft_substr(char const *s, unsigned int start, size_t len)
 
 int main(void)
 {
-    char    montest[] = "L'ange que j'ai en wallpaper est sublime, je suis amoureux";
+    char    montest[] = "Ceci est un test adequois";
     char    *tab;
 
-    tab = ft_substr(montest, 50, 42);
+    tab = ft_substr(montest, 10, 42);
     printf("%s", tab);
     free(tab);
     return (0);
