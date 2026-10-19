@@ -4,7 +4,7 @@
 static int	count_words(char const *s, char c)
 {
 	int	i;
-	int	count;
+	int	count; 
 
 	count = 1;
 	i = 0;
